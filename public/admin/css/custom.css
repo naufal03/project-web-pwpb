@@ -1,0 +1,11 @@
+.content1
+{
+    background-image: url(/admin/img/bg.jpg);
+    width: 1200px;
+    height: 300px;
+    background-size: 100% 100%;
+    opacity: 50%;
+}
+h1 {
+    font: 50px bold ;
+}

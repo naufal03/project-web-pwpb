@@ -14,10 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('dashboard');
 });
 
 Route::resource('category', App\Http\Controllers\CategoryController::class);
+Route::resource('dash', App\Http\Controllers\DashboardController::class);
 
 Auth::routes();
 

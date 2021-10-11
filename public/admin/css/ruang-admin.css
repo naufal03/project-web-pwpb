@@ -7,7 +7,7 @@
 html {
   position: relative;
   min-height: 100%;
-  font-family: Nunito
+  font-family: Nunito;
 }
 
 body {
@@ -1918,3 +1918,4 @@ body.sidebar-toggled footer.sticky-footer {
   background-color: #3f51b5;
   border-color: #3f51b5
 }
+
